@@ -1,0 +1,2 @@
+export const metadata = { title: 'TechStore - Premium Electronics', description: 'Discover premium electronics and gadgets at unbeatable prices' }
+export default function RootLayout({ children }) { return ( <html lang="en"> <body> {children} </body> </html> ) }
